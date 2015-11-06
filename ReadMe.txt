@@ -3,17 +3,17 @@ GLES2Sample
 ================================================================================
 DESCRIPTION:
 
-iPhone 3GS supports both OpenGL ES 1.1 and 2.0. This sample demonstrates how to create an OpenGL ES 1.1 and 2.0 compatible project. When running on iPod Touch, 1st generation iPhone, and iPhone 3G, the sample draws using OpenGL ES 1.1; when running on iPhone 3GS, the sample draws using OpenGL ES 2.0.
+iPhone 3GS supports both OpenGL ES 1.1 and 2.0. This sample demonstrates how to create an OpenGL ES 1.1 and 2.0 compatible project. When running on 1st generation iPhone, iPhone 3G, and 1st and 2nd generation iPod touch the sample draws using OpenGL ES 1.1; when running on iPhone 3GS and 3rd generation iPod touch, the sample draws using OpenGL ES 2.0.
 
 ================================================================================
 BUILD REQUIREMENTS:
 
-Mac OS X 10.5.3, Xcode 3.1, iPhone SDK 3.0 and later
+iOS 4.0 SDK
 
 ================================================================================
 RUNTIME REQUIREMENTS:
 
-Mac OS X 10.5.3, iPhone OS 3.0 and later
+iOS 3.2 or later
 
 ================================================================================
 PACKAGING LIST:
@@ -52,4 +52,7 @@ template.fsh
 A fragment shader that implements the drawing in the OpenGL ES project template.
 
 ================================================================================
-Copyright (C) 2009 Apple Inc. All rights reserved.
+REVISION HISTORY:
+1.1. Upgraded project to build with the iOS 4.0 SDK
+================================================================================
+Copyright (C) 2010 Apple Inc. All rights reserved.
